@@ -1,0 +1,19 @@
+{
+  "name": "servibien_web",
+  "version": "1.0.0",
+  "description": "servicios de acompañamiento",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/app.css -o ./public/app.css --watch"
+  },
+  "keywords": [],
+  "author": "DarwinTnT",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "express": "^4.18.2"
+  }
+}
